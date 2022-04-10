@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  text-align:center;
+  font-family: cursive;
+  color:#008B8B;
+  margin: 15px 15px 15px 15px;
+  border: 15px solid #D2691E;
+  border-radius: 10px;
+}
+
+body img{
+  margin-top: 20px;
+}
+
+body h1{
+  font-size: 80px;
+  letter-spacing: 7px;
+}
+
+.listahome li{
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 10px;
+}
+
+.listahome a{
+  text-decoration: none;
+  background: #008B8B;
+  color: white;
+}
+
+p{
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+h3{
+  margin-top: 20px;
+  font-size: 30px;
+  letter-spacing: 7px;
+}
+
+h4{
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.Luna img{
+  width: 300px;
+  border-radius: 100px;
+}
+
+.Luna figcaption{
+  margin-top:10px;
+  font-size: 20px;
+}
+
+.Luna button{
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: white;
+  padding: 8px 8px;
+}
+
+.Duque img{
+  width: 300px;
+  border-radius: 100px;
+}
+
+.Duque figcaption{
+  margin-top:10px;
+  font-size: 20px;
+}
+
+.Duque button{
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: white;
+  padding: 8px 8px;
+}
+
+.Perola img{
+  width: 300px;
+  border-radius: 100px;
+}
+
+.Perola figcaption{
+  margin-top:10px;
+  font-size: 20px;
+}
+
+.Perola button{
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: white;
+  padding: 8px 8px;
+}
+
+.Thor img{
+  width: 300px;
+  border-radius: 100px;
+}
+
+.Thor figcaption{
+  margin-top:10px;
+  font-size: 20px;
+}
+
+.Rex img{
+  width: 300px;
+  border-radius: 100px;
+}
+
+.Rex figcaption{
+  margin-top:10px;
+  font-size: 20px;
+}
+
+nav section{
+  display: inline-block;
+  margin: 0 50px;
+}
+
+button:hover {
+  background: #008B8B;
+}
+
+section button{
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  border-color: #008B8B;
+  text-transform: uppercase;
+  background-color: white;
+  padding: 8px 8px;
+  box-shadow: 2px 2px 2px;
+  cursor: pointer;
+}
+
+.dadosrodape p{
+  margin-top: 0;
+  font-size: 15px;
+}
+
+.listarodape li{
+  list-style-type: none;
+  font-size: 15px;
+  display: inline-block;
+}  
+
+.listarodape a{
+  text-decoration: none;
+  color: #008B8B;
+}
