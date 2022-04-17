@@ -27,7 +27,9 @@ body h1{
   display: inline-block;
   font-size: 20px;
   line-height: 2;
-  letter-spacing: 10px;
+  margin-left: 12px;
+  margin-right: 12px;
+  letter-spacing: 5px;
 }
 
 .listahome a{
@@ -54,96 +56,27 @@ h4{
   font-size: 30px;
 }
 
-.Luna img{
+nav img{
   width: 300px;
   border-radius: 100px;
 }
 
-.Luna figcaption{
+figcaption{
   margin-top:10px;
   font-size: 20px;
 }
 
-.Luna button{
-  margin-top: 10px;
-  font-size: 15px;
-  font-weight: bold;
-  border-radius: 5px;
-  text-transform: uppercase;
-  background-color: white;
-  padding: 8px 8px;
-}
-
-.Duque img{
-  width: 300px;
-  border-radius: 100px;
-}
-
-.Duque figcaption{
-  margin-top:10px;
-  font-size: 20px;
-}
-
-.Duque button{
-  margin-top: 10px;
-  font-size: 15px;
-  font-weight: bold;
-  border-radius: 5px;
-  text-transform: uppercase;
-  background-color: white;
-  padding: 8px 8px;
-}
-
-.Perola img{
-  width: 300px;
-  border-radius: 100px;
-}
-
-.Perola figcaption{
-  margin-top:10px;
-  font-size: 20px;
-}
-
-.Perola button{
-  margin-top: 10px;
-  font-size: 15px;
-  font-weight: bold;
-  border-radius: 5px;
-  text-transform: uppercase;
-  background-color: white;
-  padding: 8px 8px;
-}
-
-.Thor img{
-  width: 300px;
-  border-radius: 100px;
-}
-
-.Thor figcaption{
-  margin-top:10px;
-  font-size: 20px;
-}
-
-.Rex img{
-  width: 300px;
-  border-radius: 100px;
-}
-
-.Rex figcaption{
-  margin-top:10px;
-  font-size: 20px;
-}
-
-nav section{
+section{
   display: inline-block;
   margin: 0 50px;
 }
 
 button:hover {
   background: #008B8B;
+  color: white;
 }
 
-section button{
+button{
   margin-top: 15px;
   font-size: 15px;
   font-weight: bold;
@@ -165,9 +98,90 @@ section button{
   list-style-type: none;
   font-size: 15px;
   display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
 }  
 
 .listarodape a{
   text-decoration: none;
   color: #008B8B;
+}
+
+@media (max-width: 769px){
+  body img{
+  width: 400px;
+  }
+  
+  body h1{
+  font-size: 50px;
+  }
+  
+  .listahome li{
+  font-size: 20px;
+  line-height: 2;
+  margin-left: 10px;
+  margin-right: 10px;
+  letter-spacing: 0px;
+  }
+  
+  nav img{
+  width: 200px;
+  }
+  
+  figcaption{
+  font-size: 15px;
+  }
+  
+  button{
+  font-size: 10px;
+  }
+  
+  .Sejavoluntario img{
+    width: 250px;
+  }
+}
+
+@media (max-width: 480px){
+  body img{
+  width: 300px;
+  }
+  
+  body h1{
+  font-size: 50px;
+  }
+  
+  .listahome li{
+  font-size: 15px;
+  line-height: 2;
+  margin-left: 5px;
+  margin-right: 5px;
+  }
+  
+  nav img{
+  width: 200px;
+  }
+  
+  p{
+  margin-top: 20px;
+  margin-left: 1px;
+  margin-right: 1px;
+  font-size: 15px;
+  }
+
+  h3, h4{
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: 4px;
+  }
+   
+  .Sejavoluntario img{
+    width: 225px;
+  }
+  
+  .listarodape li{
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 1px;
+  margin-right: 1px;
+  }  
 }
